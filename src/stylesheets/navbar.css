@@ -1,0 +1,12 @@
+#pagelink {
+    color: #c9c9c9;
+}
+
+#pagelink:hover {
+    color: white;
+}
+
+#pagelink.nav-link.active {
+    background-color: #313131;
+    color: #E16428;
+}
