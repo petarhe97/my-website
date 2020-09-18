@@ -5,12 +5,17 @@ import "../stylesheets/navbar.css"
 import { NavItem } from 'react-bootstrap';
 
 class NavBar extends Component {
+
+    handleSelect = (eventKey) => {
+        this.props.onViewChange(eventKey)
+    }
+
     render() {
         return(
             <Navbar fixed="top" bg="dark" variant="dark">
-                <Navbar.Brand href="/bios">Peter He</Navbar.Brand>
-                <Nav fill variant="pills" defaultActiveKey="/bios" className="ml-auto">
-                        <Nav.Link id="pagelink" href="/bios">Bios</Nav.Link>
+                <Navbar.Brand href="/">Peter He</Navbar.Brand>
+                <Nav fill variant="pills" defaultActiveKey="bios" className="ml-auto" onSelect={this.handleSelect}>
+                        <Nav.Link id="pagelink" eventKey="bios">Bios</Nav.Link>
                         <Nav.Link id="pagelink" eventKey="projects">Projects</Nav.Link>
                         <Nav.Link id="pagelink" eventKey="resume">Resume</Nav.Link>
                 </Nav>

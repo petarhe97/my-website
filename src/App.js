@@ -1,19 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
-import NavBar from './components/navbar'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import MainContainer from './components/main-container';
 
 function App() {
-  return (
-    <div className="App">
-      <div>
-      <NavBar/>
-    </div>
-      <div className="App-container">
 
-      </div>
-    </div>
+
+  return (
+      <MainContainer/>
   );
 }
 
