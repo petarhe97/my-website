@@ -29,7 +29,11 @@ class MainContainer extends Component {
             <div className="App">
                 <div className="App-container">
                     <NavBar onViewChange={this.handleViewChange}/>
-                    {displayedView}
+                    <main role="main" class="container">
+                        <div>
+                            {displayedView}
+                        </div>
+                    </main>  
                 </div>
             </div>
         )
