@@ -7,8 +7,8 @@ class ResumePage extends Component {
 
     render() {
         return(
-            <Document file={resumePDF} renderMode="svg">
-                <Page pageNumber={1} />
+            <Document file={resumePDF}>
+                <Page pageNumber={1} scale="2"/>
             </Document>
         )
     }

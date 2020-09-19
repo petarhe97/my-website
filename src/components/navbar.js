@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import "../stylesheets/navbar.css"
-import { NavItem } from 'react-bootstrap';
 
 class NavBar extends Component {
 
@@ -12,7 +11,7 @@ class NavBar extends Component {
 
     render() {
         return(
-            <Navbar fixed="top" bg="dark" variant="dark">
+            <Navbar sticky="top" bg="dark" variant="dark">
                 <Navbar.Brand href="/">Peter He</Navbar.Brand>
                 <Nav fill variant="pills" defaultActiveKey="bios" className="ml-auto" onSelect={this.handleSelect}>
                         <Nav.Link id="pagelink" eventKey="bios">Bios</Nav.Link>
