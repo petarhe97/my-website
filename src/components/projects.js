@@ -19,7 +19,7 @@ class ProjectsPage extends Component {
                     </div>
   
                     <div class="card mb-3 shadow">
-                        <img class="card-img-top" src="/rpg.png" alt="Card image cap" height="300px"/>
+                        <img class="card-img-top" src="/rpg.png" alt="Card image cap" height="400px"/>
                         <div class="card-header"><h5>2D Tactical Game</h5></div>
                         <div class="card-body">
                             <p class="card-text">
