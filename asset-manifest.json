@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c8a211a4.chunk.css",
+    "main.js": "/static/js/main.33694755.chunk.js",
+    "main.js.map": "/static/js/main.33694755.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9b126251.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9b126251.js.map",
+    "static/css/2.11829350.chunk.css": "/static/css/2.11829350.chunk.css",
+    "static/js/2.65a0afa3.chunk.js": "/static/js/2.65a0afa3.chunk.js",
+    "static/js/2.65a0afa3.chunk.js.map": "/static/js/2.65a0afa3.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.437525b607ae0a853687f4dd82d545b7.js": "/precache-manifest.437525b607ae0a853687f4dd82d545b7.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.11829350.chunk.css.map": "/static/css/2.11829350.chunk.css.map",
+    "static/css/main.c8a211a4.chunk.css.map": "/static/css/main.c8a211a4.chunk.css.map",
+    "static/js/2.65a0afa3.chunk.js.LICENSE.txt": "/static/js/2.65a0afa3.chunk.js.LICENSE.txt",
+    "static/media/Resume_Peter_he.pdf": "/static/media/Resume_Peter_he.eee550cf.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9b126251.js",
+    "static/css/2.11829350.chunk.css",
+    "static/js/2.65a0afa3.chunk.js",
+    "static/css/main.c8a211a4.chunk.css",
+    "static/js/main.33694755.chunk.js"
+  ]
+}
