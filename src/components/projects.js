@@ -46,7 +46,7 @@ class ProjectsPage extends Component {
                             </p>
                         </div>
                         <div class="card-footer">
-                        <a href="https://github.com/petarhe97/my-website" target="_blank" id="image-button"><img src="/GitHub.png"/></a>
+                        <a href="https://github.com/petarhe97/petarhe97.github.io" target="_blank" id="image-button"><img src="/GitHub.png"/></a>
                         </div>
                     </div>
                 </div>
