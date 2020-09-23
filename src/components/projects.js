@@ -16,6 +16,9 @@ class ProjectsPage extends Component {
                                 Steps of sorting are also stored in a SQLite database as they are being sorted.
                             </p>
                         </div>
+                        <div class="card-footer">
+                        <a href="https://github.com/petarhe97/sortingApp" target="_blank" id="image-button"><img src="/GitHub.png"/></a>
+                        </div>
                     </div>
   
                     <div class="card mb-3 shadow">
@@ -28,15 +31,22 @@ class ProjectsPage extends Component {
                                 creation. 
                             </p>
                         </div>
+                        <div class="card-footer">
+                        <a href="https://github.com/petarhe97/Dongerino-Adventures" target="_blank" id="image-button"><img src="/GitHub.png"/></a>
+                        </div>
                     </div>
   
                     <div class="card mb-3 shadow">
+                        <img class="card-img-top" src="/website-icon.png" alt="Card image cap" height="400px"/>
                         <div class="card-header"><h5>Personal Website</h5></div>
                         <div class="card-body">
                             <p class="card-text">
                                 The ongoing personal website project where the result is this website. Currently the website is built mainly as a react webapp with bootstrap for some
                                 customized CSS for styling.
                             </p>
+                        </div>
+                        <div class="card-footer">
+                        <a href="https://github.com/petarhe97/my-website" target="_blank" id="image-button"><img src="/GitHub.png"/></a>
                         </div>
                     </div>
                 </div>

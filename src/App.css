@@ -18,3 +18,13 @@
 .App-link {
   color: #61dafb;
 }
+
+#image-button {
+  background-color: inherit;
+  border: none;
+  outline:none;
+}
+
+#image-button:active {
+  outline:none;
+}
