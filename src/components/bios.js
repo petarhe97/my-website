@@ -6,7 +6,7 @@ class BiosPage extends Component {
     render() {
         return(
             <div class="center-block container">
-                <div class="center-block" style={{width: "800px"}}>
+                <div class="center-block">
                     <img class="img-responsive img-circle center-block" id="bios-photo" src="circle_portrait.png"/>
                     <h1 id="bios-name">Peter He</h1>
                     <p id="bios-title">
