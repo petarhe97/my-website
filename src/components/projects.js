@@ -9,6 +9,7 @@ class ProjectsPage extends Component {
             <div id="project-cards-container">
                 <div class="card-deck">
                     <div class="card mb-3 shadow">
+                        <img class="card-img-top" src="/sortApp.png" alt="Card image cap" height="400px"/>
                         <div class="card-header"><h5>Input sorting WebApp</h5></div>
                         <div class="card-body">
                             <p class="card-text">
