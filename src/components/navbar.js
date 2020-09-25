@@ -13,7 +13,7 @@ class NavBar extends Component {
         return(
             <Navbar sticky="top" bg="dark" variant="dark">
                 <Navbar.Brand href="/">Peter He</Navbar.Brand>
-                <Nav fill variant="pills" defaultActiveKey="bios" className="ml-auto" onSelect={this.handleSelect}>
+                <Nav fill variant="pills" defaultActiveKey="bios" activeKey={this.props.displayType} className="ml-auto" onSelect={this.handleSelect}>
                         <Nav.Link id="pagelink" eventKey="bios">Bios</Nav.Link>
                         <Nav.Link id="pagelink" eventKey="projects">Projects</Nav.Link>
                         <Nav.Link id="pagelink" eventKey="resume">Resume</Nav.Link>

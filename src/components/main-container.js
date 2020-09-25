@@ -18,7 +18,7 @@ class MainContainer extends Component {
         const view = this.state.displayType
         let displayedView;
         if (view == 'bios') {
-            displayedView = <BiosPage/>
+            displayedView = <BiosPage onViewChange={this.handleViewChange}/>
         } else if (view == 'projects') {
             displayedView = <ProjectsPage/>
         } else {
@@ -27,7 +27,7 @@ class MainContainer extends Component {
 
         return(
             <div className="App">
-                    <NavBar onViewChange={this.handleViewChange}/>
+                    <NavBar onViewChange={this.handleViewChange} displayType={this.state.displayType}/>
                     <div className="App-container" id="App-container">
                         <main role="main">
                              <div>

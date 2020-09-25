@@ -3,6 +3,11 @@ import "../stylesheets/bios.css"
 
 class BiosPage extends Component {
 
+    handleLink = (eventKey) => {
+        this.props.onViewChange(eventKey)
+        window.scrollTo(0,0)
+    }
+
     render() {
         return(
             <div className="center-block container">
@@ -30,7 +35,8 @@ class BiosPage extends Component {
                             Javascript, Python, Java and Kotlin.
                     </p>
                     <p id="bios-body">
-                            To learn more about my previous experiences and qualifications, please visit my projects and resume pages.
+                            To learn more about my previous experiences and qualifications, 
+                            please visit my <a href="javascript:void(0);" onClick={() => this.handleLink("projects")}>projects</a> and <a href="javascript:void(0);" onClick={() => this.handleLink("resume")}>resume</a> pages.
                     </p>
                 </div>
             </div>

@@ -38,3 +38,7 @@
 #separator {
     border-top: 1px solid rgb(238 238 238 / 30%);
 }
+
+#nav-link {
+    color: orange;
+}

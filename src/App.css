@@ -42,5 +42,9 @@
 }
 
 a {
-  color: orange;
+  color: #E16428;
+}
+
+a:hover {
+  color:  orangered;
 }
