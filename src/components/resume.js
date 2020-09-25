@@ -26,9 +26,11 @@ class ResumePage extends Component {
         }
         
         return(
-            <Document file={resumePDF}>
-                <Page pageNumber={1} width={widthValue}/>
-            </Document>
+            <div style={{"margin-top": "15px"}}>
+                <Document file={resumePDF}>
+                    <Page pageNumber={1} width={widthValue}/>
+                </Document>
+            </div>
         )
     }
 }
