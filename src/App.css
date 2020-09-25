@@ -28,3 +28,15 @@
 #image-button:active {
   outline:none;
 }
+
+#footer {
+  background-color: #282c34;
+  color: #eeeeee;
+  width: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-top: 1px solid rgb(238 238 238 / 30%);
+  padding: 10px;
+}
