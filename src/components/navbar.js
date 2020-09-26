@@ -11,10 +11,10 @@ class NavBar extends Component {
 
     render() {
         return(
-            <Navbar sticky="top" bg="dark" variant="dark">
+            <Navbar sticky="top" bg="dark" variant="dark" style={{fontFamily: "Hack"}}>
                 <Navbar.Brand href="/">Peter He</Navbar.Brand>
                 <Nav fill variant="pills" defaultActiveKey="bios" activeKey={this.props.displayType} className="ml-auto" onSelect={this.handleSelect}>
-                        <Nav.Link id="pagelink" eventKey="bios">Bios</Nav.Link>
+                        <Nav.Link id="pagelink" eventKey="bios">About</Nav.Link>
                         <Nav.Link id="pagelink" eventKey="projects">Projects</Nav.Link>
                         <Nav.Link id="pagelink" eventKey="resume">Resume</Nav.Link>
                 </Nav>

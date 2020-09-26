@@ -10,3 +10,8 @@
     background-color: #313131;
     color: #E16428;
 }
+
+@font-face {
+    font-family: Hack;
+    src: url("/Hack-Regular.ttf");
+}
