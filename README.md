@@ -9,6 +9,7 @@ This project is created for displaying my professional experiences and interests
 - Better projects list, animations during hover
 - Resume page to include a button to a downloadable pdf
 - Maybe changing the profile page to be a more horizontal experience after the one page scrolling update
+- Design an icon for the website
 
 ## Available Scripts
 
@@ -19,5 +20,6 @@ In the project directory, you can run:
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### `npm run deploy`
+
+Deploys the current branch to github pages
